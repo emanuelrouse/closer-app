@@ -18,7 +18,6 @@ function LandingPage() {
           Closer helps you work out the steps required to close the distance and be with your loved one once and for all.
         </p>
       </section>
-
     </>
   );
 }

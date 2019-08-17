@@ -13,23 +13,26 @@ body {
   margin: 0 auto -42px; 
 }
 
-/* footer {
+footer {
   padding: 1% 0;
   background-color: #aaa;
   width: 100%;
   position: absolute;
-} */
+}
 
 header {
   padding: 45px 15px;
 }
 
-form {
+section {
   min-height: 200px;
   padding: 30px 15px;
   background-color: #bbb;
 }
 
+section:nth-child(even) {
+  background-color: #ddd;
+}
 
 p {
   margin: 0 auto;
@@ -44,6 +47,6 @@ label {
   padding-right: 5px; 
 }
 
-.registration-form-nav {
-  position: relative;
+li {
+  list-style: none;
 }
