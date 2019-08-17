@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from './Nav';
 import '../App.css';
 
-function HomePage() {
+function LandingPage() {
   return (
     <>
       <Nav />
@@ -18,13 +18,9 @@ function HomePage() {
           Closer helps you work out the steps required to close the distance and be with your loved one once and for all.
         </p>
       </section>
-      <section>
-        <header>
-          <h3>Create your action plan today</h3>
-        </header>
-      </section>
+
     </>
   );
 }
 
-export default HomePage;
+export default LandingPage;
