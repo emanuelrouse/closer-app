@@ -5,7 +5,7 @@ import './RegistrationForm.css';
 function RegistrationForm() {
   return (
     <>
-      <Nav className="registration-form-nav"/>
+      <Nav />
       <form action="" className="registration-form">
       <div>
         <label htmlFor="first-name">First name</label>
